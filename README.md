@@ -1,5 +1,7 @@
 # Lead Management System
 
+**Live Link:** [https://lead-management-system-theta-pearl.vercel.app/](https://lead-management-system-theta-pearl.vercel.app/)
+
 A full-stack web application designed to help manage leads efficiently. The system allows users to create, view, update, and delete leads, providing a clean and responsive user interface to track potential customers.
 
 ## Features
@@ -106,3 +108,11 @@ The backend provides the following RESTful API endpoints under `http://localhost
 - `POST /` - Add a new lead (requires `name`, `phone`, `source`)
 - `PUT /:id` - Update the status of an existing lead (requires `status`)
 - `DELETE /:id` - Delete a lead by ID
+
+## Deployment
+
+- **Frontend**: [Vercel](https://vercel.com/)
+- **Backend**: [Render](https://render.com/)
+- **Database**: [Neon PostgreSQL](https://neon.tech/)
+
+Live link: https://lead-management-system-theta-pearl.vercel.app/
